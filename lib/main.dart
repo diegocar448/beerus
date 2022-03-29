@@ -7,6 +7,7 @@ void main() {
   runApp(
     GetMaterialApp(
       title: "Beer US",
+      debugShowCheckedModeBanner: false,
       initialRoute: AppPages.INITIAL,
       getPages: AppPages.routes,
     ),
