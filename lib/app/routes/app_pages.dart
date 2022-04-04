@@ -1,6 +1,7 @@
 import 'package:beerus/app/modules/on_boarding/splash/page.dart';
 import 'package:get/get_navigation/src/routes/get_route.dart';
 
+import '../modules/home/views/home_view.dart';
 import '../modules/on_boarding/information/binding.dart';
 import '../modules/on_boarding/information/page.dart';
 import '../modules/on_boarding/splash/binding.dart';
@@ -30,3 +31,5 @@ class AppPages {
     ),
   ];
 }
+
+class HomeBinding {}
