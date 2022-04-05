@@ -1,7 +1,8 @@
 import 'package:beerus/app/modules/on_boarding/splash/page.dart';
 import 'package:get/get_navigation/src/routes/get_route.dart';
 
-import '../modules/home/views/home_view.dart';
+import '../modules/on_boarding/home/page.dart';
+import '../modules/on_boarding/home/binding.dart';
 import '../modules/on_boarding/information/binding.dart';
 import '../modules/on_boarding/information/page.dart';
 import '../modules/on_boarding/splash/binding.dart';
@@ -19,11 +20,11 @@ class AppPages {
       page: () => SplashPage(),
       binding: SplashBinding(),
     ),
-    /* GetPage(
+    GetPage(
       name: Routes.HOME,
-      page: () => HomeView(),
+      page: () => Home(),
       binding: HomeBinding(),
-    ), */
+    ),
     GetPage(
       name: Routes.INFORMATION,
       page: () => OnboardingInformationPage(),
@@ -32,4 +33,4 @@ class AppPages {
   ];
 }
 
-class HomeBinding {}
+//class HomeBinding {}

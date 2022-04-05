@@ -6,5 +6,5 @@ abstract class Routes {
   static const INITIAL = SPLASH;
   static const SPLASH = '/on_boarding/splash.dart';
   static const INFORMATION = '/on_boarding/information.dart';
-  static const HOME = '/home';
+  static const HOME = '/on_boarding/home.dart';
 }
