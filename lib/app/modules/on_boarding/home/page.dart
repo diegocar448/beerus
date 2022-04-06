@@ -28,16 +28,14 @@ class Home extends GetView<HomeController> {
               height: Get.width * 0.3,
             ),
             BeerUsButtonRounded(
-                name: "Entrar",
-                //icon: Icon(Icons.login),
-                onTap: () {
-                  print("Entrar");
-                }),
+              name: "Entrar",
+              //icon: Icon(Icons.login),
+              onTap: () => controller.onClickButtonSignIn(),
+            ),
             BeerUsButtonRounded(
-                name: "Registrar",
-                onTap: () {
-                  print("Registrar");
-                }),
+              name: "Registrar",
+              onTap: () => controller.onClickButtonSignUp(),
+            ),
             // =======================
           ],
         ),

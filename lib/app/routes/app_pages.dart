@@ -1,6 +1,8 @@
 import 'package:beerus/app/modules/on_boarding/splash/page.dart';
 import 'package:get/get_navigation/src/routes/get_route.dart';
 
+import '../modules/on_boarding/auth/sign_in/binding.dart';
+import '../modules/on_boarding/auth/sign_in/page.dart';
 import '../modules/on_boarding/home/page.dart';
 import '../modules/on_boarding/home/binding.dart';
 import '../modules/on_boarding/information/binding.dart';
@@ -29,6 +31,11 @@ class AppPages {
       name: Routes.INFORMATION,
       page: () => OnboardingInformationPage(),
       binding: OnboardingInformationBinding(),
+    ),
+    GetPage(
+      name: Routes.SIGN_IN,
+      page: () => SignInPage(),
+      binding: SignBinding(),
     ),
   ];
 }
