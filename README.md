@@ -1,6 +1,6 @@
 
 ![](https://raw.githubusercontent.com/jonataslaw/getx-community/master/get.png)
-![](https://raw.githubusercontent.com/jonataslaw/getx-community/master/getx.png)
+
 # Beerus
 
 Projeto flutter 2.0 nullSafety, utilizando o getX para gerenciamento de estados.
@@ -18,3 +18,4 @@ For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 "# beerus" 
+![](https://raw.githubusercontent.com/jonataslaw/getx-community/master/getx.png)
